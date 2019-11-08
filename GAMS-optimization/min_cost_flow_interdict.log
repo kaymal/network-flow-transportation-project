@@ -1,0 +1,48 @@
+
+--- Job min_cost_flow_interdict.gms Start 05/31/12 10:35:57 WIN-VS8 23.8.2 x86/MS Windows        
+GAMS Rev 238  Copyright (C) 1987-2012 GAMS Development. All rights reserved
+Licensee: Student License                                G120323/0001AP-GEN
+          Naval Postgraduate School, Operations Research Department  DC1696
+          License for teaching and research at degree granting institutions
+--- Starting compilation
+--- min_cost_flow_interdict.gms(30) 2 Mb
+--- .nodes.csv(38) 3 Mb
+--- min_cost_flow_interdict.gms(38) 3 Mb
+--- .arcs.csv(64) 3 Mb
+--- min_cost_flow_interdict.gms(45) 3 Mb
+--- .attack_arcs_set.csv(4) 3 Mb
+--- min_cost_flow_interdict.gms(51) 3 Mb
+--- .arcs_data2.csv(65) 3 Mb
+--- min_cost_flow_interdict.gms(130) 3 Mb 1 Error
+*** Error 141 in C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow_interdict\min_cost_flow\min_cost_flow_interdict.gms
+    Symbol neither initialized nor assigned
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- min_cost_flow_interdict.gms(147) 3 Mb 2 Errors
+*** Error 257 in C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow_interdict\min_cost_flow\min_cost_flow_interdict.gms
+    Solve statement not checked because of previous errors
+--- min_cost_flow_interdict.gms(165) 3 Mb 3 Errors
+*** Error 141 in C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow_interdict\min_cost_flow\min_cost_flow_interdict.gms
+    Symbol neither initialized nor assigned
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- min_cost_flow_interdict.gms(246) 3 Mb 4 Errors
+*** Error 257 in C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow_interdict\min_cost_flow\min_cost_flow_interdict.gms
+    Solve statement not checked because of previous errors
+--- min_cost_flow_interdict.gms(254) 3 Mb 5 Errors
+*** Error 141 in C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow_interdict\min_cost_flow\min_cost_flow_interdict.gms
+    Symbol neither initialized nor assigned
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- min_cost_flow_interdict.gms(261) 3 Mb 6 Errors
+*** Error 141 in C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow_interdict\min_cost_flow\min_cost_flow_interdict.gms
+    Symbol neither initialized nor assigned
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- min_cost_flow_interdict.gms(275) 3 Mb 7 Errors
+*** Error 257 in C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow_interdict\min_cost_flow\min_cost_flow_interdict.gms
+    Solve statement not checked because of previous errors
+--- min_cost_flow_interdict.gms(290) 3 Mb 7 Errors
+*** Status: Compilation error(s)
+--- Job min_cost_flow_interdict.gms Stop 05/31/12 10:35:58 elapsed 0:00:00.067
+Exit code = 2

@@ -1,0 +1,35 @@
+[PROJECT]
+
+[RP:MAX_FLOW_INTERDICT]
+1=
+
+[RP:GAMS1]
+1=
+
+[RP:SHORTEST_PATH_INTERDICT]
+1=
+
+[RP:SPSTOP]
+1=
+
+[RP:MIN_COST_FLOW_INTERDICT]
+1=
+
+[MRUFILES]
+1=C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow\min_cost_flow_interdict.gms
+2=C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow_interdict\min_cost_flow\arcs_data3.csv
+3=C:\Users\Turgut\Desktop\Courses\spring12\network\HW\hw3\3.2-files\spstop.gms
+4=C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\shortest_path_interdict\shortest_path\shortest_path_interdict.gms
+5=C:\Users\Turgut\Desktop\Courses\spring12\network\HW\Gams 1\gams1.gms
+6=C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\max_flow_interdict\max_flow\max_flow_interdict.gms
+7=C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow_interdict\min_cost_flow\nodes_data.csv
+
+[OPENWINDOW_1]
+FILE0=C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow_interdict\min_cost_flow\min_cost_flow_interdict.gms
+FILE1=C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow_interdict\min_cost_flow\min_cost_flow_interdict.lst
+FILE2=C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\min_cost_flow_interdict\min_cost_flow\min_cost_flow_interdict.gms
+MAXIM=1
+TOP=115
+LEFT=115
+HEIGHT=462
+WIDTH=1069

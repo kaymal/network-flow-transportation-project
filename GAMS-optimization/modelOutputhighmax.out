@@ -1,0 +1,84 @@
+nC is     10943.24
+****
+solve MinCostFlow with no interdictions
+   flow on arc Start        -> Canada       is      5953.20
+   flow on arc Start        -> Mexico       is      2651.00
+   flow on arc Start        -> Venezuela    is       173.40
+   flow on arc Start        -> Colombia     is       928.40
+   flow on arc Canada       -> USA          is      5953.20
+   flow on arc Mexico       -> USA          is      2651.00
+   flow on arc Venezuela    -> USA          is       173.40
+   flow on arc Colombia     -> USA          is       928.40
+   flow on arc USA          -> Start        is      9706.00
+total cost =  237416.1
+****
+interdiction plan with         1.00 nAttacks:
+   attack arc: StraitofMala -> StraitofMala
+cost with interdictions in place =  237416.1
+****
+solve MinCostFlow with interdictions in place
+operator best response:
+   flow on arc Start        -> Canada       is      5953.20
+   flow on arc Start        -> Mexico       is      2651.00
+   flow on arc Start        -> Venezuela    is       173.40
+   flow on arc Start        -> Colombia     is       928.40
+   flow on arc Canada       -> USA          is      5953.20
+   flow on arc Mexico       -> USA          is      2651.00
+   flow on arc Venezuela    -> USA          is       173.40
+   flow on arc Colombia     -> USA          is       928.40
+   flow on arc USA          -> Start        is      9706.00
+total cost =  237416.1
+****
+interdiction plan with         2.00 nAttacks:
+   attack arc: NorthHormuz  -> SouthHormuz
+cost with interdictions in place =  237416.1
+****
+solve MinCostFlow with interdictions in place
+operator best response:
+   flow on arc Start        -> Canada       is      5953.20
+   flow on arc Start        -> Mexico       is      2651.00
+   flow on arc Start        -> Venezuela    is       173.40
+   flow on arc Start        -> Colombia     is       928.40
+   flow on arc Canada       -> USA          is      5953.20
+   flow on arc Mexico       -> USA          is      2651.00
+   flow on arc Venezuela    -> USA          is       173.40
+   flow on arc Colombia     -> USA          is       928.40
+   flow on arc USA          -> Start        is      9706.00
+total cost =  237416.1
+****
+interdiction plan with         3.00 nAttacks:
+   attack arc: NorthHormuz  -> SouthHormuz
+cost with interdictions in place =  237416.1
+****
+solve MinCostFlow with interdictions in place
+operator best response:
+   flow on arc Start        -> Canada       is      5953.20
+   flow on arc Start        -> Mexico       is      2651.00
+   flow on arc Start        -> Venezuela    is       173.40
+   flow on arc Start        -> Colombia     is       928.40
+   flow on arc Canada       -> USA          is      5953.20
+   flow on arc Mexico       -> USA          is      2651.00
+   flow on arc Venezuela    -> USA          is       173.40
+   flow on arc Colombia     -> USA          is       928.40
+   flow on arc USA          -> Start        is      9706.00
+total cost =  237416.1
+****
+interdiction plan with         4.00 nAttacks:
+   attack arc: NorthHormuz  -> SouthHormuz
+   attack arc: StraitofMala -> StraitofMala
+   attack arc: SuezCanalSou -> SuezCanalNor
+   attack arc: SuMedSouth   -> SuMedNorth
+cost with interdictions in place =  237416.1
+****
+solve MinCostFlow with interdictions in place
+operator best response:
+   flow on arc Start        -> Canada       is      5953.20
+   flow on arc Start        -> Mexico       is      2651.00
+   flow on arc Start        -> Venezuela    is       173.40
+   flow on arc Start        -> Colombia     is       928.40
+   flow on arc Canada       -> USA          is      5953.20
+   flow on arc Mexico       -> USA          is      2651.00
+   flow on arc Venezuela    -> USA          is       173.40
+   flow on arc Colombia     -> USA          is       928.40
+   flow on arc USA          -> Start        is      9706.00
+total cost =  237416.1

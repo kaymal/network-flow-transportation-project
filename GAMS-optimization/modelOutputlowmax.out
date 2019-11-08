@@ -1,0 +1,231 @@
+nC is     10943.24
+****
+solve MinCostFlow with no interdictions
+   flow on arc Start        -> Canada       is      2976.60
+   flow on arc Start        -> Mexico       is      1325.50
+   flow on arc Start        -> SaudiArabia  is      1060.00
+   flow on arc Start        -> Nigeria      is       898.70
+   flow on arc Start        -> Venezuela    is      1038.40
+   flow on arc Start        -> Angola       is       380.60
+   flow on arc Start        -> Colombia     is       464.20
+   flow on arc Start        -> Algeria      is       393.80
+   flow on arc Start        -> Russia       is       683.10
+   flow on arc Start        -> Brazil       is       273.90
+   flow on arc Start        -> Ecuador      is       211.20
+   flow on arc Canada       -> USA          is      2976.60
+   flow on arc Mexico       -> USA          is      1325.50
+   flow on arc SaudiArabia  -> NorthHormuz  is       455.00
+   flow on arc SaudiArabia  -> YanbuEWP     is       605.00
+   flow on arc Nigeria      -> USA          is       898.70
+   flow on arc Venezuela    -> USA          is      1038.40
+   flow on arc Angola       -> USA          is       380.60
+   flow on arc Colombia     -> USA          is       464.20
+   flow on arc Algeria      -> StraitofGibr is       393.80
+   flow on arc Russia       -> DanishStrait is       683.10
+   flow on arc Brazil       -> USA          is       273.90
+   flow on arc Ecuador      -> PanamaCanalW is       211.20
+   flow on arc NorthHormuz  -> SouthHormuz  is       455.00
+   flow on arc SouthHormuz  -> StraitofBabe is       455.00
+   flow on arc SuezCanalNor -> StraitofGibr is      1060.00
+   flow on arc SuezCanalSou -> SuezCanalNor is      1060.00
+   flow on arc StraitofBabe -> SuezCanalSou is       455.00
+   flow on arc StraitofBabe -> StraitofBabe is       455.00
+   flow on arc PanamaCanalE -> USA          is       211.20
+   flow on arc PanamaCanalW -> PanamaCanalE is       211.20
+   flow on arc DanishStrait -> DanishStrait is       683.10
+   flow on arc DanishStrait -> USA          is       683.10
+   flow on arc StraitofGibr -> USA          is      1453.80
+   flow on arc StraitofGibr -> StraitofGibr is      1453.80
+   flow on arc YanbuEWP     -> SuezCanalSou is       605.00
+   flow on arc USA          -> Start        is      9706.00
+total cost =  711640.8
+****
+interdiction plan with         1.00 nAttacks:
+   attack arc: NorthHormuz  -> SouthHormuz
+cost with interdictions in place = 5690815.0
+****
+solve MinCostFlow with interdictions in place
+operator best response:
+   flow on arc Start        -> Canada       is      2976.60
+   flow on arc Start        -> Mexico       is      1325.50
+   flow on arc Start        -> SaudiArabia  is      1060.00
+   flow on arc Start        -> Nigeria      is       898.70
+   flow on arc Start        -> Venezuela    is      1038.40
+   flow on arc Start        -> Angola       is       380.60
+   flow on arc Start        -> Colombia     is       464.20
+   flow on arc Start        -> Algeria      is       393.80
+   flow on arc Start        -> Russia       is       683.10
+   flow on arc Start        -> Brazil       is       273.90
+   flow on arc Start        -> Ecuador      is       211.20
+   flow on arc Canada       -> USA          is      2976.60
+   flow on arc Mexico       -> USA          is      1325.50
+   flow on arc SaudiArabia  -> NorthHormuz  is       455.00
+   flow on arc SaudiArabia  -> YanbuEWP     is       605.00
+   flow on arc Nigeria      -> USA          is       898.70
+   flow on arc Venezuela    -> USA          is      1038.40
+   flow on arc Angola       -> USA          is       380.60
+   flow on arc Colombia     -> USA          is       464.20
+   flow on arc Algeria      -> StraitofGibr is       393.80
+   flow on arc Russia       -> DanishStrait is       683.10
+   flow on arc Brazil       -> USA          is       273.90
+   flow on arc Ecuador      -> PanamaCanalW is       211.20
+   flow on arc NorthHormuz  -> SouthHormuz  is       455.00
+   flow on arc SouthHormuz  -> StraitofBabe is       455.00
+   flow on arc SuezCanalNor -> StraitofGibr is      1060.00
+   flow on arc SuezCanalSou -> SuezCanalNor is      1060.00
+   flow on arc StraitofBabe -> SuezCanalSou is       455.00
+   flow on arc StraitofBabe -> StraitofBabe is       455.00
+   flow on arc PanamaCanalE -> USA          is       211.20
+   flow on arc PanamaCanalW -> PanamaCanalE is       211.20
+   flow on arc DanishStrait -> DanishStrait is       683.10
+   flow on arc DanishStrait -> USA          is       683.10
+   flow on arc StraitofGibr -> USA          is      1453.80
+   flow on arc StraitofGibr -> StraitofGibr is      1453.80
+   flow on arc YanbuEWP     -> SuezCanalSou is       605.00
+   flow on arc USA          -> Start        is      9706.00
+total cost = 5690815.0
+****
+interdiction plan with         2.00 nAttacks:
+   attack arc: NorthHormuz  -> SouthHormuz
+   attack arc: SuezCanalSou -> SuezCanalNor
+cost with interdictions in place = 5763316.0
+****
+solve MinCostFlow with interdictions in place
+operator best response:
+   flow on arc Start        -> Canada       is      2976.60
+   flow on arc Start        -> Mexico       is      1325.50
+   flow on arc Start        -> SaudiArabia  is      1060.00
+   flow on arc Start        -> Nigeria      is       898.70
+   flow on arc Start        -> Venezuela    is      1038.40
+   flow on arc Start        -> Angola       is       380.60
+   flow on arc Start        -> Colombia     is       464.20
+   flow on arc Start        -> Algeria      is       393.80
+   flow on arc Start        -> Russia       is       683.10
+   flow on arc Start        -> Brazil       is       273.90
+   flow on arc Start        -> Ecuador      is       211.20
+   flow on arc Canada       -> USA          is      2976.60
+   flow on arc Mexico       -> USA          is      1325.50
+   flow on arc SaudiArabia  -> NorthHormuz  is       455.00
+   flow on arc SaudiArabia  -> YanbuEWP     is       605.00
+   flow on arc Nigeria      -> USA          is       898.70
+   flow on arc Venezuela    -> USA          is      1038.40
+   flow on arc Angola       -> USA          is       380.60
+   flow on arc Colombia     -> USA          is       464.20
+   flow on arc Algeria      -> StraitofGibr is       393.80
+   flow on arc Russia       -> DanishStrait is       683.10
+   flow on arc Brazil       -> USA          is       273.90
+   flow on arc Ecuador      -> PanamaCanalW is       211.20
+   flow on arc NorthHormuz  -> SouthHormuz  is       455.00
+   flow on arc SouthHormuz  -> StraitofMala is       455.00
+   flow on arc StraitofMala -> USA          is       455.00
+   flow on arc StraitofMala -> StraitofMala is       455.00
+   flow on arc StraitofBabe -> StraitofBabe is       550.00
+   flow on arc StraitofBabe -> USA          is       550.00
+   flow on arc PanamaCanalE -> USA          is       211.20
+   flow on arc PanamaCanalW -> PanamaCanalE is       211.20
+   flow on arc DanishStrait -> DanishStrait is       683.10
+   flow on arc DanishStrait -> USA          is       683.10
+   flow on arc StraitofGibr -> USA          is       448.80
+   flow on arc StraitofGibr -> StraitofGibr is       448.80
+   flow on arc YanbuEWP     -> StraitofBabe is       550.00
+   flow on arc YanbuEWP     -> SuMedSouth   is        55.00
+   flow on arc SuMedSouth   -> SuMedNorth   is        55.00
+   flow on arc SuMedNorth   -> StraitofGibr is        55.00
+   flow on arc USA          -> Start        is      9706.00
+total cost = 5763316.0
+****
+interdiction plan with         3.00 nAttacks:
+   attack arc: NorthHormuz  -> SouthHormuz
+   attack arc: StraitofMala -> StraitofMala
+   attack arc: SuezCanalSou -> SuezCanalNor
+cost with interdictions in place = 5777284.5
+****
+solve MinCostFlow with interdictions in place
+operator best response:
+   flow on arc Start        -> Canada       is      2976.60
+   flow on arc Start        -> Mexico       is      1325.50
+   flow on arc Start        -> SaudiArabia  is      1060.00
+   flow on arc Start        -> Nigeria      is       898.70
+   flow on arc Start        -> Venezuela    is      1038.40
+   flow on arc Start        -> Angola       is       380.60
+   flow on arc Start        -> Colombia     is       464.20
+   flow on arc Start        -> Algeria      is       393.80
+   flow on arc Start        -> Russia       is       683.10
+   flow on arc Start        -> Brazil       is       273.90
+   flow on arc Start        -> Ecuador      is       211.20
+   flow on arc Canada       -> USA          is      2976.60
+   flow on arc Mexico       -> USA          is      1325.50
+   flow on arc SaudiArabia  -> NorthHormuz  is       455.00
+   flow on arc SaudiArabia  -> YanbuEWP     is       605.00
+   flow on arc Nigeria      -> USA          is       898.70
+   flow on arc Venezuela    -> USA          is      1038.40
+   flow on arc Angola       -> USA          is       380.60
+   flow on arc Colombia     -> USA          is       464.20
+   flow on arc Algeria      -> StraitofGibr is       393.80
+   flow on arc Russia       -> DanishStrait is       683.10
+   flow on arc Brazil       -> USA          is       273.90
+   flow on arc Ecuador      -> PanamaCanalW is       211.20
+   flow on arc NorthHormuz  -> SouthHormuz  is       455.00
+   flow on arc SouthHormuz  -> LombokandMak is       455.00
+   flow on arc StraitofBabe -> StraitofBabe is       550.00
+   flow on arc StraitofBabe -> USA          is       550.00
+   flow on arc PanamaCanalE -> USA          is       211.20
+   flow on arc PanamaCanalW -> PanamaCanalE is       211.20
+   flow on arc DanishStrait -> DanishStrait is       683.10
+   flow on arc DanishStrait -> USA          is       683.10
+   flow on arc StraitofGibr -> USA          is       448.80
+   flow on arc StraitofGibr -> StraitofGibr is       448.80
+   flow on arc YanbuEWP     -> StraitofBabe is       550.00
+   flow on arc YanbuEWP     -> SuMedSouth   is        55.00
+   flow on arc LombokandMak -> USA          is       455.00
+   flow on arc SuMedSouth   -> SuMedNorth   is        55.00
+   flow on arc SuMedNorth   -> StraitofGibr is        55.00
+   flow on arc USA          -> Start        is      9706.00
+total cost = 5777284.5
+****
+interdiction plan with         4.00 nAttacks:
+   attack arc: NorthHormuz  -> SouthHormuz
+   attack arc: StraitofMala -> StraitofMala
+   attack arc: SuezCanalSou -> SuezCanalNor
+   attack arc: SuMedSouth   -> SuMedNorth
+cost with interdictions in place = 5783354.6
+****
+solve MinCostFlow with interdictions in place
+operator best response:
+   flow on arc Start        -> Canada       is      2976.60
+   flow on arc Start        -> Mexico       is      1325.50
+   flow on arc Start        -> SaudiArabia  is      1060.00
+   flow on arc Start        -> Nigeria      is       898.70
+   flow on arc Start        -> Venezuela    is      1038.40
+   flow on arc Start        -> Angola       is       380.60
+   flow on arc Start        -> Colombia     is       464.20
+   flow on arc Start        -> Algeria      is       393.80
+   flow on arc Start        -> Russia       is       683.10
+   flow on arc Start        -> Brazil       is       273.90
+   flow on arc Start        -> Ecuador      is       211.20
+   flow on arc Canada       -> USA          is      2976.60
+   flow on arc Mexico       -> USA          is      1325.50
+   flow on arc SaudiArabia  -> NorthHormuz  is       455.00
+   flow on arc SaudiArabia  -> YanbuEWP     is       605.00
+   flow on arc Nigeria      -> USA          is       898.70
+   flow on arc Venezuela    -> USA          is      1038.40
+   flow on arc Angola       -> USA          is       380.60
+   flow on arc Colombia     -> USA          is       464.20
+   flow on arc Algeria      -> StraitofGibr is       393.80
+   flow on arc Russia       -> DanishStrait is       683.10
+   flow on arc Brazil       -> USA          is       273.90
+   flow on arc Ecuador      -> PanamaCanalW is       211.20
+   flow on arc NorthHormuz  -> SouthHormuz  is       455.00
+   flow on arc SouthHormuz  -> LombokandMak is       455.00
+   flow on arc StraitofBabe -> StraitofBabe is       605.00
+   flow on arc StraitofBabe -> USA          is       605.00
+   flow on arc PanamaCanalE -> USA          is       211.20
+   flow on arc PanamaCanalW -> PanamaCanalE is       211.20
+   flow on arc DanishStrait -> DanishStrait is       683.10
+   flow on arc DanishStrait -> USA          is       683.10
+   flow on arc StraitofGibr -> USA          is       393.80
+   flow on arc StraitofGibr -> StraitofGibr is       393.80
+   flow on arc YanbuEWP     -> StraitofBabe is       605.00
+   flow on arc LombokandMak -> USA          is       455.00
+   flow on arc USA          -> Start        is      9706.00
+total cost = 5783354.6

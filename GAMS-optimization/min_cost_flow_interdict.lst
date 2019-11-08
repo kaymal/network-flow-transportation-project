@@ -1,0 +1,111 @@
+GAMS Rev 238  WIN-VS8 23.8.2 x86/MS Windows             05/31/12 10:35:57 Page 1
+UsOilImport OA4202 2012
+C o m p i l a t i o n
+
+
+   3   OPTIONS
+   4     SOLPRINT =     OFF,
+   5     DECIMALS =       1,
+   6     LIMCOL   =      10,
+   7     LIMROW   =      10,
+   8     RESLIM   =      60, {max seconds}
+   9     ITERLIM  =99999999, {max iterations}
+  10     LP       =     CPLEX,
+  11     MIP      =     CPLEX
+  12   ;
+  13   
+  14   
+ 301   unsatisfied_flow = sum((i,j), Y.l(i,j)$(xbar(i,j) eq 1))
+****                                   $141
+**** LINE    130 INPUT       C:\Users\Turgut\Desktop\Courses\spring12\network\Gr
+                             oup Project\GAMS\min_cost_flow_interdict\min_cost_f
+                             low\min_cost_flow_interdict.gms
+ 318   SOLVE MinCostFlow USING LP MINIMIZING Zprimal;       { find the uninterdi
+****                                                $257
+      cted min cost flow}
+**** LINE    147 INPUT       C:\Users\Turgut\Desktop\Courses\spring12\network\Gr
+                             oup Project\GAMS\min_cost_flow_interdict\min_cost_f
+                             low\min_cost_flow_interdict.gms
+ 336   put 'total cost =',Zprimal.l:10:1 /
+****                              $141
+**** LINE    165 INPUT       C:\Users\Turgut\Desktop\Courses\spring12\network\Gr
+                             oup Project\GAMS\min_cost_flow_interdict\min_cost_f
+                             low\min_cost_flow_interdict.gms
+ 417   SOLVE InterdictionMIP USING MIP MAXIMIZING Zdual;       { Find the best i
+****                                                   $257
+      nterdiction plan }
+**** LINE    246 INPUT       C:\Users\Turgut\Desktop\Courses\spring12\network\Gr
+                             oup Project\GAMS\min_cost_flow_interdict\min_cost_f
+                             low\min_cost_flow_interdict.gms
+ 425  display X.l;
+****            $141
+**** LINE    254 INPUT       C:\Users\Turgut\Desktop\Courses\spring12\network\Gr
+                             oup Project\GAMS\min_cost_flow_interdict\min_cost_f
+                             low\min_cost_flow_interdict.gms
+ 432   put 'cost with interdictions in place =',Zdual.l:10:1 /
+****                                                  $141
+**** LINE    261 INPUT       C:\Users\Turgut\Desktop\Courses\spring12\network\Gr
+                             oup Project\GAMS\min_cost_flow_interdict\min_cost_f
+                             low\min_cost_flow_interdict.gms
+ 446   SOLVE MinCostFlow USING LP MINIMIZING Zprimal;       { find min cost flow
+****                                                $257
+       plan with the interdictions in place }
+**** LINE    275 INPUT       C:\Users\Turgut\Desktop\Courses\spring12\network\Gr
+                             oup Project\GAMS\min_cost_flow_interdict\min_cost_f
+                             low\min_cost_flow_interdict.gms
+GAMS Rev 238  WIN-VS8 23.8.2 x86/MS Windows             05/31/12 10:35:57 Page 2
+UsOilImport OA4202 2012
+Error Messages
+
+
+141  Symbol neither initialized nor assigned
+        A wild shot: You may have spurious commas in the explanatory
+        text of a declaration. Check symbol reference list.
+257  Solve statement not checked because of previous errors
+
+**** 7 ERROR(S)   0 WARNING(S)
+GAMS Rev 238  WIN-VS8 23.8.2 x86/MS Windows             05/31/12 10:35:57 Page 3
+UsOilImport OA4202 2012
+Include File Summary
+
+
+   SEQ   GLOBAL TYPE      PARENT   LOCAL  FILENAME
+
+     1        1 INPUT          0       0  C:\Users\Turgut\Desktop\Courses\spring
+                                          12\network\Group Project\GAMS\min_cost
+                                          _flow_interdict\min_cost_flow\min_cost
+                                          _flow_interdict.gms
+     2       30 INCLUDE        1      30  .C:\Users\Turgut\Desktop\Courses\sprin
+                                           g12\network\Group Project\GAMS\min_co
+                                           st_flow_interdict\min_cost_flow\nodes
+                                           .csv
+     3       76 INCLUDE        1      38  .C:\Users\Turgut\Desktop\Courses\sprin
+                                           g12\network\Group Project\GAMS\min_co
+                                           st_flow_interdict\min_cost_flow\arcs.
+                                           csv
+     4      147 INCLUDE        1      45  .C:\Users\Turgut\Desktop\Courses\sprin
+                                           g12\network\Group Project\GAMS\min_co
+                                           st_flow_interdict\min_cost_flow\attac
+                                           k_arcs_set.csv
+     5      157 INCLUDE        1      51  .C:\Users\Turgut\Desktop\Courses\sprin
+                                           g12\network\Group Project\GAMS\min_co
+                                           st_flow_interdict\min_cost_flow\arcs_
+                                           data2.csv
+
+
+COMPILATION TIME     =        0.062 SECONDS      3 Mb  WIN238-238 Apr  3, 2012
+
+
+USER: Student License                                G120323/0001AP-GEN
+      Naval Postgraduate School, Operations Research Department  DC1696
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\m
+           in_cost_flow_interdict\min_cost_flow\min_cost_flow_interdict.gms
+Output     C:\Users\Turgut\Desktop\Courses\spring12\network\Group Project\GAMS\m
+           in_cost_flow_interdict\min_cost_flow\min_cost_flow_interdict.lst
+
+**** USER ERROR(S) ENCOUNTERED
